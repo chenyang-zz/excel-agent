@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
+	"github.com/chenyang-zz/excel-agent/agents/executor"
+	"github.com/chenyang-zz/excel-agent/agents/planner"
+	"github.com/chenyang-zz/excel-agent/agents/replanner"
 	"github.com/cloudwego/eino-examples/adk/common/prints"
-	"github.com/cloudwego/eino-examples/adk/multiagent/integration-excel-agent/agents/executor"
-	"github.com/cloudwego/eino-examples/adk/multiagent/integration-excel-agent/agents/planner"
-	"github.com/cloudwego/eino-examples/adk/multiagent/integration-excel-agent/agents/replanner"
+
 	"github.com/cloudwego/eino/adk"
 	"github.com/cloudwego/eino/adk/prebuilt/planexecute"
 	"github.com/cloudwego/eino/schema"
